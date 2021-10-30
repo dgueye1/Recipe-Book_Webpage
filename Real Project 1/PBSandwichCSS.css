@@ -1,0 +1,74 @@
+table{
+	border: 2px outset black;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 20%;
+}
+
+tr:nth-child(even){
+	background-color: lightblue;
+}
+
+tr:nth-child(odd){
+	background-color: white;
+}
+
+a:hover{
+	color: orange;
+}
+
+h3{
+	font-weight: bold;
+}
+
+body{
+	background-color: lightyellow;
+	color: brown;
+}
+
+p:nth-child(even){
+	background-color: lightblue;
+}
+
+.PBIngredients{
+	border: 2px outset black;
+	background-color: white;
+	width: 30%;
+	margin-left: 50px;
+	
+}
+
+.PBSteps{
+	border: 2px outset black;
+	background-color: white;
+	width: 35%;
+	margin-left: 800px;
+	margin-top: -200px;
+}
+
+.PBTable{
+	margin-top: 60px;
+	margin-left: 50px;
+	-ms-transform: rotate(20deg);
+	 transform: rotate(20deg);
+
+}
+
+.ImgDiv{
+	text-align: center;
+}
+
+.Time{
+	border: 2px solid black;
+    width: 15%;
+    text-align: center;
+    background-color: white;
+    margin-top: -350px;
+    margin-left: 1000px;
+    -ms-transform: rotate(-20deg);
+	 transform: rotate(-20deg);
+}
+h2, ol{
+	position:relative;
+	left: 40px;
+}

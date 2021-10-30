@@ -1,0 +1,127 @@
+html{
+    background-color: #E1F8DC;
+}
+.bens-recipe{
+    margin:auto;
+    font-family: Sans-serif;
+}
+#topname{
+    margin-top:-1%;
+}
+.bens-recipe #titlename{
+    font-size: 15px;
+    font-weight: normal;
+}
+.bens-recipe h1{
+    margin-top: 0;
+}
+.bens-recipe h1, .bens-recipe h3{
+    text-align: center;
+    background-color: #ACDDDE;
+    margin-top: 0;
+    padding: 5%;
+    transition: 0.7s;
+}
+#containerforpic{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bens-recipe img{
+    width: 30%;
+    height: auto;
+    border: 5px solid #ACDDDE;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.bens-recipe img:hover{
+    width:35%;
+    height: auto;
+    border: 5px solid #61C49A;
+}
+.bens-recipe img:active{
+    transform:rotate(0.5turn);
+}
+.bens-recipe .info-container{
+    display: flex;
+    margin: 1%;
+    gap: 2%;
+}
+.bens-recipe span{
+    font-weight: bold;
+}
+.bens-recipe #ingredients{
+    border: 1px solid #ACDDDE;
+    background-color: #F7D8BA;
+    width: 100%;
+    height: auto;
+    line-height: 1.4vw;
+    margin-left: 20%;
+
+}
+.bens-recipe #steps{
+    border: 1px solid #ACDDDE;
+    background-color: #FEF8DD;
+    width: 100%;
+    height: auto;
+    line-height: 1.5vw;
+    margin-right: 20%;
+}
+
+#steps li{
+    padding-right: 20px;
+}
+.bens-recipe #prep{
+    border: 1px solid #ACDDDE;
+    width: 15%;
+    text-align: left;
+    background-color: white;
+}
+#prep p{
+    margin-left: 25%;
+}
+.bens-recipe h1:hover, .bens-recipe h3:hover{
+    background-color: #61C49A;
+    color: #ACDDDE;
+}
+.info-container li:hover{
+    color:   #61C49A;
+    font-size: 20px;
+}
+.bens-recipe .nutri-info{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: 1px solid #ACDDDE;
+    text-align: center;
+    background-color: white;
+}
+.nutri-info h3{
+    padding:1%;
+}
+#ball{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ACDDDE;
+    border-radius: 50%;
+    background-color: salmon;
+    position: relative;
+    animation-name: ball;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+}
+@keyframes ball {
+    0%   {background-color:salmon; left:3%; top:0px;}
+    25%  {background-color:white; left:95%; top:0px;}
+    50%  {background-color:#ACDDDE; left:95%; top:7vw;}
+    75%  {background-color:white; left:3%; top:7vw;}
+    100% {background-color:salmon; left:3%; top:0px;}
+}
+#source{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+#quote{
+    font-style: italic;
+}

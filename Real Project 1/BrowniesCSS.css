@@ -1,0 +1,37 @@
+body {
+	background-color: ivory;
+}
+h1,h2 { 
+text-align: center;display: flex; flex-wrap: wrap;
+}
+h1.center {
+	margin-left: auto; margin-right: auto; width:20em;
+}
+h2.center {
+	margin-left: auto; margin-right: auto; width:24em;
+}
+.main {
+	width: 70%; margin: 0px auto;
+	display: flex; justify-content: center; 
+}
+.box1 {
+	background-color: #ffce95; padding: 2em; margin: 2em; width: 350px;
+}
+.box2 {
+	background-color: #ffce95; padding: 2em; margin: 2em; width: 450px;
+}
+img {
+	width: 800px; display: block; margin-left: auto; margin-right: auto;
+}
+.ani {
+  width: 20px;
+  height: 20px;
+  background: #ffce95;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1470px; background-color: maroon;}
+}
